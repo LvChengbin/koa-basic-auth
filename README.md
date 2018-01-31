@@ -14,6 +14,8 @@ $ npm i @lvchengbin/koa-basic-auth --save
 const Koa = require( 'koa' );
 const auth = require( '@lvchengbin/koa-basic-auth' );
 
+const app = new Koa();
+
 // throw 401 if authentication failed
 app.use( auth( 'username', 'password' ) );
 
