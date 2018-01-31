@@ -1,0 +1,35 @@
+{
+	"name": "@lvchengbin/koa-basic-auth",
+	"description": "More flexible koa http basic auth middleware",
+	"repository": "git@github.com:LvChengbin/koa-basic-auth.git",
+	"version": "0.0.1",
+	"keywords": [
+		"koa",
+		"middleware",
+		"http-auth",
+		"basic-auth",
+		"auth"
+	],
+	"files": [
+		"index.js"
+	],
+	"devDependencies": {
+		"@lvchengbin/koa-router": "0.0.2",
+		"get-stream": "^3.0.0",
+		"jasmine": "^2.8.0",
+		"koa": "^2.4.1",
+		"koa-bodyparser": "^4.2.0",
+		"nodemon": "^1.14.11",
+		"supertest": "^3.0.0"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"basic-auth": "^2.0.0"
+	},
+	"scripts": {
+		"test-watching": "nodemon --exec npm test",
+		"test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json",
+		"lint": "eslint ./ --cache --ignore-path .eslintignore",
+		"precommit-msg": "echo 'Pre-commit checks...' && exit 0"
+	}
+}
