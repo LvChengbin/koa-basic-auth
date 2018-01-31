@@ -27,7 +27,7 @@ To use with a callback function:
 ```js
 app.use( auth( 'username', 'password', ( result, ctx, next ) => {
     if( !result ) {
-        ctx.body = 'has no permission';
+        ctx.body = 'Unauthorized';
     } else {
         next();
     }

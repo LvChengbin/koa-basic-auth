@@ -2,7 +2,7 @@
 	"name": "@lvchengbin/koa-basic-auth",
 	"description": "More flexible koa http basic auth middleware",
 	"repository": "git@github.com:LvChengbin/koa-basic-auth.git",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"keywords": [
 		"koa",
 		"middleware",
