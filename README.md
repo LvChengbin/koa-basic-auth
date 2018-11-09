@@ -1,5 +1,7 @@
 # koa-basic-auth
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/LvChengbin/koa-basic-auth.svg)](https://greenkeeper.io/)
+
 A middleware for koa to add http basic authentication.
 
 ## Installation
