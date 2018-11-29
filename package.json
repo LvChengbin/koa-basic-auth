@@ -2,7 +2,7 @@
 	"name": "@lvchengbin/koa-basic-auth",
 	"description": "More flexible koa http basic auth middleware",
 	"repository": "git@github.com:LvChengbin/koa-basic-auth.git",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"keywords": [
 		"koa",
 		"middleware",
@@ -14,15 +14,15 @@
 		"index.js"
 	],
 	"devDependencies": {
-		"@lvchengbin/koa-router": "0.0.2",
-		"jasmine": "^2.8.0",
+		"@lvchengbin/koa-router": "0.0.9",
+		"jasmine": "^3.3.0",
 		"koa": "^2.4.1",
 		"nodemon": "^1.14.11",
 		"supertest": "^3.0.0"
 	},
 	"license": "MIT",
 	"dependencies": {
-		"@lvchengbin/is": "0.0.9",
+		"@lvchengbin/is": "0.0.24",
 		"basic-auth": "^2.0.0"
 	},
 	"scripts": {
